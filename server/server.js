@@ -5,8 +5,6 @@ const cookieParser=require('cookie-parser')
 
 
 
-mongoose.connect("mongodb+srv://subhankashif696_db_user:cNGwhwc5H8mUsyYz@cluster0.wmn3rc3.mongodb.net/").then(()=>console.log("MongoDB Connected"))
-.catch((error)=>console.log(error))
 
 const app = express()
 const PORT =process.env.PORT || 5000;
